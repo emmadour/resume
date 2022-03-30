@@ -1,0 +1,59 @@
+header{
+	background: grey;
+	font-family: sans-serif;
+	color: white;
+	margin: 100; padding: 0;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bb/Panorama_de_San_Diego.jpg);
+	height: 100vh;
+	background-position: center;
+}
+
+.m1{
+	text-align: center;
+	display: block;
+	min-width: 120px;
+	text-align: center;
+	margin: 0.5rem;
+	padding: 0.4rem;
+	background-color: skyblue;
+	color: grey;
+	border:  1px solid;
+	border-radius: 4px;
+	justify-content: center;
+	float: left;
+}
+.m1:hover {
+	background-color: grey;
+	color: black;
+	border-color: black;
+	transition: all 1s;
+	
+}
+
+.banner{
+	text-align: center;
+	margin: 16px auto;
+	padding: 16px;
+	width:  75%;
+	border-radius: 5px;
+	
+}
+.btn-pink{
+	background-color: darksalmon;
+	border: darksalmon; 1px solid;
+	color: white;
+	padding: 16px;
+	display: block;
+	width: 25%;
+	margin: 8px auto;
+	border-radius: 5px;
+	transition: 1s;
+	text-align: center;
+}
+.btn-pink:hover {
+	background-color: grey;
+	color: black;
+	border-color: black;
+	transition: all 1s;
+
+}

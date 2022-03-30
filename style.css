@@ -1,0 +1,98 @@
+body{
+	font-family: arial;
+	margin: 0; padding: 0;
+	background-color: LightSteelBlue;
+	text-align: justify;
+	margin: 10;
+
+}
+div.card{
+		background-color: white;
+		text-align: left;
+		margin: 16px auto;
+		padding: 16px;
+		width:  75%;
+		border-radius: 5px;
+		display: block;
+		block-shadow: 2px 1px 14px 1px #000000b3;
+
+
+
+
+}
+footer{
+	font-family: arial;
+}
+
+h1{
+	text-align: center;
+	color: black;
+}
+
+
+h3 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.btn-pink{
+	background-color: darksalmon;
+	border: darksalmon; 1px solid;
+	color: white;
+	padding: 16px;
+	display: block;
+	width: 25%;
+	margin: 8px auto;
+	border-radius: 5px;
+	transition: 1s;
+	text-align: center;
+}
+.btn-b{
+	background-color: darkslateblue;
+	border: darklateblue; 1px solid;
+	color: white;
+	padding: 16px;
+	display: block;
+	width: 25%;
+	margin: 8px auto;
+	border-radius: 5px;
+	transition: 1s;
+	text-align: center;
+}
+.btn-b:hover {
+	background-color: grey;
+	color: black;
+	border-color: black;
+	transition: all 1s;
+}
+
+a{
+	text-decoration: none;
+}
+
+.emma{
+	width: 25%;
+	height: 25%;
+	display: center;
+}
+
+.Professional{
+	display:  flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  text-align: center;
+}
+.pro{
+	background-color: white;
+	text-align: left;
+	margin: 16px auto;
+	padding: 16px;
+	width:  75%;
+	border-radius: 5px;
+	display: block;
+}
